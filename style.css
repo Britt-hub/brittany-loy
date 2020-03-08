@@ -1,0 +1,153 @@
+#body {
+    background-color: #334352;
+    margin: 0px;
+    font-family: 'Krona One';
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One';
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0px;
+  }
+  #navWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    background-color: #011526;
+    color: white;
+  }
+  
+  #innerContainer {
+    display: flex;
+    flex-direction: row;
+    height: 999999%;
+  }
+  
+  #divider {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+  }
+  
+  #navContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #mainWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  #greetingTag {
+    color: red;
+    font-size: 20px;
+  }
+  
+  /* #redHorizontalRule {
+    width: 35px;
+    margin: 0px;
+    margin-top: 23px;
+    border-color: red;
+  } */
+  
+  .redHorizontalLine {
+    width: 35px;
+    margin: 0px;
+    margin-top: 23px;
+    border-color: red;
+  }
+  
+  #theTechCoachHeading {
+    font-size: 30px;
+  }
+  
+  #aboutSubtext {
+    font-size: 30px;
+  }
+  
+  #headShotImage {
+    width: 400px;
+    margin-left: 1%;
+    margin-bottom: -73px;
+  }
+  
+  #greetingWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    background-color: white;
+    width: 100%;
+  }
+  
+  #theTechHeading {
+    font-size: 60px;
+  }
+  
+  #viewAssetsWrapper {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+  }
+  #greetingDiv {
+    padding-left: 15px;
+  }
+  
+  #viewResumeDivButton {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e713d6;
+    color: #ffffff;
+    line-height: 30px;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+  
+  #viewPortfolioButton {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #011526;
+    color: white;
+    line-height: 30px;
+    padding: 10px;
+    flex-basis: 50%;
+  }
+  
+  #brandingImage {
+    width: 100px;
+  }
+  
+  #navLinks {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  /* #aboutUsWrapper {
+    backgroud-color: white;
+    color:black;
+  } */
+  
+  #aboutText {
+    font-family: 'Krona One';
+    
+  }
+
+  .contactCenter {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+    
+    }
+    
