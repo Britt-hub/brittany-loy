@@ -70,8 +70,8 @@ export default
                  url: 'https://docs.google.com/document/d/10jIR2P58h45rf7Iq0xWXgaheyHBK5WQIqROMr4xJr4o/edit?usp=sharing'
             },
             {
-                //  name: '',
-                //  url: ''
+                 name: 'Linkedin',
+                 url: 'https://www.linkedin.com/in/brittany-loy-a52b0956/'
             },
             {
                 name: 'Twitter',
