@@ -13,7 +13,7 @@ export default
         contactEmail: 'bloydeveloper@gmail.com',
         aboutText: "As a life-long learner and highly motivated individual I spend much of my free time reading about and practicing web development. I have always been very interested in developing web sites and creating application. I've attended the University of North Carolina Boot Camp for coding to further my education. Iam passionate about building tools which enable people to better themselves. I'm also deeply fascinated by how technology enables us to store and transmit vast amounts of information in fractions of a second. I work daily to understand how this process works and to gain the skills needed to add something meaningful to this process. I enjoy most activities which are competitive and repetitive, which is what drew me to coding. The feeling of iteratively improving at the certain task is something that motivates me in many aspects",
         aboutImagine: 'https://cdn.glitch.com/b4a53857-5e88-4836-9f45-36782caa3484%2FUntitled%20design%20(1).png?v=1582422628146',
-        ShowAboutImage: true,
+        ShowAboutImage: false,
         
         projects:[
             {
@@ -79,4 +79,4 @@ export default
      }
 
 
-    }
+    

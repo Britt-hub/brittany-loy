@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
-import Work from './components/work';
+import Work from './components/Work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 
