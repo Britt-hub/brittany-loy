@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Project from './Project';
+import Project from './project';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
 
@@ -10,12 +10,12 @@ class Work extends Component {
         <h1 className='heading'>
         <Fade bottom cascade>Work.</Fade></h1>
         <div className='work-content'>
-                {data.Projects.map((Project)=>(
-                    <Project key={Project.id}
-                             title = {Project.title}
-                             service = {Project.service}
-                             imageSrc = {Project.imageSrc}
-                             url={Project.url}
+                {data.projects.map((project)=>(
+                    <Project key={project.id}
+                             title = {project.title}
+                             service = {project.service}
+                             imageSrc = {project.imageSrc}
+                             url={project.url}
                      ></Project>
                 ))}
         </div>

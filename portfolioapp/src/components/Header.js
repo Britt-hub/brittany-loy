@@ -8,7 +8,7 @@ class Header extends Component {
 
     render() {
         return (<div>
-        <h1 className='heading-background'></h1>
+        <h1 className='heading-background'>Brittany</h1>
             <header>
                 <h1>
                     <Fade bottom cascade>{data.name}</Fade></h1>

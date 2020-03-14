@@ -1,9 +1,9 @@
 export default
     {
-        headTagline: [
-            'Hi 👋 You found me! I am Your Name.',
+        headerTagline: [//Line 1 For Header
+            'Hi 👋 You found me! I am Brittany Loy.',
             //header two
-            'Digital designer ',
+            'Web Developer ',
             //header three
             // 'from India'
         ],

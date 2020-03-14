@@ -6,7 +6,7 @@ class Project extends Component {
     render() { 
         return ( 
         <Fade bottom>
-        <div className='Project'>
+        <div className='project'>
         <a href={this.props.url}>
             <img src={this.props.imageSrc} alt={this.props.title}></img>
             </a>
