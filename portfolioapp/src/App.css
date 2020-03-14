@@ -120,7 +120,8 @@ li .link:hover{
   width: 37em;
 }
 .about img{
-  margin-left: 5em;
+  margin-left: 16em;
+  width: 400px
 }
 .work{
   position: relative;

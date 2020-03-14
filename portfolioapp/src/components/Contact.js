@@ -12,8 +12,8 @@ class Contact extends Component {
         <Fade bottom>
         <div className='contact-content'>
                 <h1>
-                Let’s create your next<br></br>
-                <span className='amazing-color'>experience together</span></h1>
+                Hire me today!!!<br></br>
+                <span className='amazing-color'>I am looking for a job :)</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
