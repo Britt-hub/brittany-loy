@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
+import { SocialIcon } from 'react-social-icons';
+
+
+
+
 
 class Contact extends Component {
     state = {  }
@@ -17,9 +22,12 @@ class Contact extends Component {
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
                     {data.social.map((link,index)=>(
-                        <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                        // <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
+                        <SocialIcon url={link.url} /> 
                     ))}   
-                </ul>
+                    </ul>
+                 
+
         </div>
         </Fade>
 

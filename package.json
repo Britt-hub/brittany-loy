@@ -1,0 +1,19 @@
+{
+  "name": "brittany-loy",
+  "version": "1.0.0",
+  "description": "## About This is the most up to date version to Brittany Loy's portfolio page. The website was built with HTML, CSS, SASS, Bootstrap, and JavaScript. [Click here to access my portfolio](https://britt-hub.github.io/brittanys-portfolio/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britt-hub/brittany-loy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Britt-hub/brittany-loy/issues"
+  },
+  "homepage": "https://github.com/Britt-hub/brittany-loy#readme"
+}

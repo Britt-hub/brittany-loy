@@ -1,3 +1,6 @@
+
+
+
 export default
     {
         headerTagline: [//Line 1 For Header
@@ -82,3 +85,24 @@ export default
     }
 
 
+    // social media links. Figure out how to use the icons
+    // const socialMediaIcons = [
+    //     {
+    //       url: 'https://github.com/Britt-hub',
+    //       className: 'fa-github-square',
+    //     },
+    //     {
+    //       url: 'https://gitlab.com/andrewgbliss',
+    //       className: 'fa-gitlab',
+    //     },
+    //     {
+    //       url: 'https://www.npmjs.com/~andrewgbliss',
+    //       className: 'fa-npm',
+    //     },
+    //   ];
+      
+    //   <SocialMediaIcons
+    //     icons={socialMediaIcons}
+    //     iconSize={'1.3em'}
+    //     iconColor={'#495056'}
+    //   />
