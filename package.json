@@ -4,7 +4,8 @@
   "description": "## About This is the most up to date version to Brittany Loy's portfolio page. The website was built with HTML, CSS, SASS, Bootstrap, and JavaScript. [Click here to access my portfolio](https://britt-hub.github.io/brittanys-portfolio/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd portfolioapp && npm start"
   },
   "repository": {
     "type": "git",
