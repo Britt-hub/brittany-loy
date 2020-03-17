@@ -6,7 +6,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 
 function App() {
