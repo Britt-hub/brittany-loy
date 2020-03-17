@@ -5,7 +5,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Resume from './components/Resume'
 // import { SocialIcon } from 'react-social-icons';
 
 
@@ -26,7 +27,11 @@ function App() {
       <div className='contact'>
         <Contact></Contact>
       </div>
-    </div>
+    
+     <div className='resume'>
+     <Resume></Resume>
+      </div>
+      </div>
   );
 }
 
