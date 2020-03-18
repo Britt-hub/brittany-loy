@@ -21,6 +21,8 @@ function App() {
   return (
 
     <Router>
+                  
+
 
       <Switch>
         <Route path="/work">
@@ -31,7 +33,7 @@ function App() {
         </Route>
         <Route path="/">
           <div className="App">
-            <Navbar></Navbar>
+          <Navbar /> 
             <div className="App-header">
               <Header></Header>
             </div>

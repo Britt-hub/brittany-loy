@@ -50,7 +50,10 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
                 <li>
-                <a target='_blank' rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
+                    
+                <a className='link'
+                        activeClass="active"
+                        rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
 
                </li>
             </ul>
