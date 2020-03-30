@@ -21,6 +21,7 @@ class Contact extends Component {
                 <span className='amazing-color'>I am looking for a job :)</span></h1>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
                 <ul>
+
                     {data.social.map((link,index)=>(
                         // <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
                         <SocialIcon url={link.url} /> 

@@ -61,7 +61,7 @@ nav li{
 nav li .link{
   text-decoration: none;
   color: black;
-  padding:1em;
+  margin:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

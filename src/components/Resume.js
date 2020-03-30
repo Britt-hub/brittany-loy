@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import data from '../data';
 import Fade from 'react-reveal/Fade';
-
+import { Link } from 'react-router-dom'
 
 function Resume () {
     
@@ -13,8 +13,7 @@ function Resume () {
             <fade bottom>
                 <div className='contact-content'>
 
-                    <a target='_blank' rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
-
+                    <a target="_blank" rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
                 </div>
 
             </fade>

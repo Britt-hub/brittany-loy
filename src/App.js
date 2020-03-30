@@ -23,7 +23,7 @@ function App() {
     <Router>
                   
 
-
+                  <Navbar /> 
       <Switch>
         <Route path="/work">
           <Work />
@@ -33,7 +33,7 @@ function App() {
         </Route>
         <Route path="/">
           <div className="App">
-          <Navbar /> 
+          
             <div className="App-header">
               <Header></Header>
             </div>

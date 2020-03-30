@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import data from '../data';
+import ResumeLink from './Resume';
+import WorkLink from './Work';
+
 
 import {
     Link as RouterLink
-  } from "react-router-dom";
+} from "react-router-dom";
 
 class Navbar extends Component {
-    state = {  }
+    state = {}
     scrollToTop = () => {
         scroll.scrollToTop();
     };
-    render() { 
+    render() {
         return (<nav>
 
-            
+
             <ul>
                 <li><Link
                     className='link'
@@ -38,7 +41,8 @@ class Navbar extends Component {
                 <li><RouterLink
                     className='link'
                     activeClass="active"
-                     to="/work"
+                    to="/work"
+                    target="_blank"
                 >Work</RouterLink></li>
                 <li><Link
                     className='link'
@@ -50,16 +54,18 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
                 <li>
-                    
-                <a className='link'
-                        activeClass="active"
-                        rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
-
-               </li>
+                    <li>
+                        <a className='link'
+                            activeClass="active"
+                            target="_blank"
+                            rel="noopener noreferrer" href={data.social[1].url}>{data.social[1].name}</a>
+                    </li>
+                    {/* <ResumeLink/> */}
+                </li>
             </ul>
         </nav>);
-        
+
     }
 }
- 
+
 export default Navbar;
