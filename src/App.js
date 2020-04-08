@@ -6,6 +6,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Skills from "./components/Skills";
 
 import {
   BrowserRouter as Router,
@@ -38,6 +39,10 @@ function App() {
               <Header></Header>
             </div>
 
+            <div>
+              <Skills></Skills>
+            </div>
+
             <div className='About'>
               <About></About>
             </div>
@@ -45,6 +50,7 @@ function App() {
             <div className='contact'>
               <Contact></Contact>
             </div>
+            
 
             {/* <div className='resume'>
      <Resume></Resume>
