@@ -40,21 +40,27 @@ export default
                 title: 'Budget App',
                 service: 'Keep track of your daily spending',
                 imageSrc: "https://cdn.glitch.com/b4a53857-5e88-4836-9f45-36782caa3484%2FbudgetTracker.png?v=1584058225740",
-                url: 'https://personal-budget-tracker.herokuapp.com/'
+                url: 'https://personal-budget-tracker.herokuapp.com/',
+                GithubUrl: 'https://github.com/Britt-hub/Workout-Tracker'
+
             },
             {
                 id: 3,
                 title: 'Travel App',
                 service: 'Traveling Made Easy. Find hotels near you.',
                 imageSrc: "https://cdn.glitch.com/b4a53857-5e88-4836-9f45-36782caa3484%2Fproject2.png?v=1584058778199",
-                url: 'https://lets-travel-right-now.herokuapp.com/'
+                url: 'https://lets-travel-right-now.herokuapp.com/',
+                GithubUrl: 'https://github.com/Britt-hub/Project-2'
+
             },
             {
                 id: 4,
                 title: 'Weather App',
                 service: 'Search for local weather information',
                 imageSrc: "https://cdn.glitch.com/b4a53857-5e88-4836-9f45-36782caa3484%2Fweather.png?v=1584059136345",
-                url: 'https://britt-hub.github.io/Weather-Dashboard/'
+                url: 'https://britt-hub.github.io/Weather-Dashboard/',
+                GithubUrl: 'https://github.com/Britt-hub/Weather-Dashboard'
+
             }
 
             /*
