@@ -1,3 +1,4 @@
+// import ReactCardFlip from 'react-card-flip';
 
 
 
@@ -31,7 +32,8 @@ export default
                 service: 'Find local things to do',
                 imageSrc: "https://cdn.glitch.com/b4a53857-5e88-4836-9f45-36782caa3484%2FScreen%20Shot%202020-02-14%20at%203.06.03%20PM.png?v=1584058222209",
                 //Project URL - Add Your Project Url Here
-                url: 'https://britt-hub.github.io/FindIt/'
+                url: 'https://britt-hub.github.io/FindIt/',
+                GithubUrl: 'https://github.com/Britt-hub/FindIt'
             },
             {
                 id: 2,
@@ -83,6 +85,11 @@ export default
             {
                 name: 'Twitter',
                 url: 'https://twitter.com/brittcoder4life'
+            },
+            
+            {
+                name: 'Instagram',
+                url: 'https://www.instagram.com/britt_coder4life/'
             }
 
         ]
