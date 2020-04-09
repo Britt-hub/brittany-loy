@@ -22,9 +22,9 @@ function App() {
   return (
 
     <Router>
-                  
 
-                  <Navbar /> 
+
+      <Navbar />
       <Switch>
         <Route path="/work">
           <Work />
@@ -34,7 +34,7 @@ function App() {
         </Route>
         <Route path="/">
           <div className="App">
-          
+
             <div className="App-header">
               <Header></Header>
             </div>
@@ -46,11 +46,11 @@ function App() {
             <div className='About'>
               <About></About>
             </div>
-           
+
             <div className='contact'>
               <Contact></Contact>
             </div>
-            
+
 
             {/* <div className='resume'>
      <Resume></Resume>
