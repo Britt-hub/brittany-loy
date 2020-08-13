@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import MovieCard from './movieCard.js';
 
 export default function SearchMovies() {
 
@@ -32,6 +33,7 @@ export default function SearchMovies() {
 
 
   return (
+    <>
     <form className="form" onSubmit={searchMovies}>
       <label className="label" htmlFor="query"> Movie Name</label>
       <input className="input" type="text" name="query"
@@ -40,6 +42,12 @@ export default function SearchMovies() {
       />
       <button className="button" type="submit">Search</button>
 
-    </form>
+      </form>
+      <div className="card-list">
+        {movies.filter(movie => movie.poster_path).map(movie => (
+          <MovieCard movie={movie}  key={movie.id}/>
+        ))}
+      </div>
+      </>
   )
 }
