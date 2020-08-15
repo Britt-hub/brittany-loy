@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+// import './App.css';
 import MovieCard from './movieCard.js';
 
 export default function SearchMovies() {
